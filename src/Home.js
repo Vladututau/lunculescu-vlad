@@ -1,6 +1,6 @@
 import React from 'react';
 import '././first.css';
-import Particles from './n/Particles';
+import Particles from './n/Particles.js';
 import { Link } from "react-router-dom";
 
   
@@ -14,7 +14,7 @@ const Home = () => {
         <div id='site'>
                 <nav id='navigation'>
                 <div id='logo-home'> <a href='/'><img src='./Lunculescu Vlad.png' id='logo' alt='logo' ></img></a></div>
-                    <div id='title'><h1 id='white'><div id='letter'>V</div><div id='letter'>l</div><div id='letter'>a</div><div id='letter'>d</div><div id='letter'>'</div><div id='letter'>s</div> <div id='color'><div id='letter'>W</div><div id='letter'>e</div><div id='letter'>b</div><div id='letter'>s</div><div id='letter'>i</div><div id='letter'>t</div><div id='letter'>e</div></div></h1></div>
+                    <div id='title'><h1 id='white'> <div id='color'><div id='letter'>V</div><div id='letter'>l</div><div id='letter'>a</div><div id='letter'>d</div><div id='letter'>'</div><div id='letter'>s</div> <div id='letter'>W</div><div id='letter'>e</div><div id='letter'>b</div><div id='letter'>s</div><div id='letter'>i</div><div id='letter'>t</div><div id='letter'>e</div></div></h1></div>
                        <div id='pages'> 
                        <Link to ="./about" id='link'>About</Link>
                        <Link to ="./contact" id='link'>Contact</Link>
