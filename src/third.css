@@ -1,0 +1,235 @@
+#third{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    --nav-width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+    position: absolute;
+}
+#logo-home{
+
+    width: calc(var(--nav-width) / 3);
+}
+#logo2{
+    position: absolute;
+    top: 0;
+    width: 5vw;
+
+}
+#page{
+    right: 0;
+    width: calc(var(--nav-width) / 3);
+    justify-content: space-between;
+    display: inline-block;
+    text-align: right; 
+    
+}
+section{
+
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    margin-top: 0;
+}
+.star{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    animation: animate 8s ease-in-out infinite;
+
+}
+#star1{
+    background: url('./n/star1.png');
+    animation-delay: 0s;
+}
+#star2{
+    background: url('./n/star2.png');
+    animation-delay: -1s;
+}
+#star3{
+    background: url('./n/star3.png');
+    animation-delay: -2s;
+}#star4{
+    background: url('./n/star4.png');
+    animation-delay: -3s;
+}#star5{
+    background: url('./n/star5.png');
+    animation-delay: -4s;
+}#star6{
+    background: url('./n/star6.png');
+    animation-delay: -5s;
+}#star7{
+    background: url('./n/star7.png');
+    animation-delay: -6s;
+}#star8{
+    background: url('./n/star8.png');
+    animation-delay: -7s;
+}
+
+@keyframes animate{
+    0%, 20%,40%,60%,80%,100%{
+        opacity: 0;
+    }
+    10%,30%,50%,70%,90%{
+        opacity: 1;
+    }
+}
+#half1{
+    height: 90vh;
+    position: absolute;
+    top: 10vh;
+    width: 50vw;
+    right: 50vw;
+}
+#glass{
+    background:  rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.1vw);
+    -webkit-backdrop-filter: blur(0.1vw);
+    border-radius: 0.2vw;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    margin-left: 12%;
+    margin-right: 20%;
+    margin-top: 7%;
+    margin-bottom: 20%;
+    height: 75vh;
+
+}
+#h1{
+    color: white;
+    margin-left: 7%;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2vw;
+    letter-spacing: 1px;
+}
+#whitep{
+    color: white;
+    margin-left: 7%;
+    margin-top: 0%;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+#half2{
+    height: 90vh;
+    position: absolute;
+    top: 10vh;
+    width: 50vw;
+    left: 50vw;
+    overflow: hidden;
+}
+#contact{
+    display: grid;
+    align-items: center;
+}
+#form{
+    position: relative;
+    margin-top: 1%;
+}
+#input , textarea{
+    width: 70%;
+    margin-left: 7%;
+    padding: 0.1vw;
+    border: none;
+    outline: none;
+    color: white;
+    background: #191919;
+    font-size: 1.1rem;
+    margin-bottom: 1vh;
+    border-radius: 0.1vw;
+}
+#textarea{
+    resize: none;
+    height: 20vh;
+}
+#btn{
+    display: inline-block;
+    background: white;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    width: 12vw;
+    height: 5vh;
+    transition: ease .20s;
+    cursor: pointer;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+#btn:hover{
+
+    transform: scale(1.1);
+    border-radius: 0;
+
+}
+#whitep1{
+    color: white;
+    margin-left: 7%;
+    margin-top: 5%;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+#linkedin{
+    position: absolute;
+    scale: 2%;
+    top: -38vh;
+    left: -52vw;
+    filter: grayscale(1);
+    transition: filter 0.5s;
+}
+#linkedin:hover{
+    filter: grayscale(0);
+}
+#fiverr{
+    position: absolute;
+    scale: 5%;
+    top: 12vh;
+    left: -43.5vw;
+    filter: grayscale(1);
+    transition: filter 0.5s;
+}
+#fiverr:hover{
+    filter: grayscale(0);
+}
+#instagram{
+    position: absolute;
+    scale: 15%;
+    top: 53vh;
+    left: 7vw;
+    filter: grayscale(1);
+    transition: filter 0.5s;
+}
+#instagram:hover{
+    filter: grayscale(0);
+}
+#short{
+    height: 0vh;
+    display: block;
+    opacity: 1;
+
+}
+#c{
+    scale: 80%;
+    overflow: hidden;
+    position: relative;
+    margin-top: -52%;
+    margin-left: 22%;
+}
