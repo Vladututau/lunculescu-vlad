@@ -30,8 +30,8 @@
         )
         );
 
-        $mail->Username = 'luncu.vlad@gmail.com';// SMTP username
-        $mail->Password = 'Veganul!$';// SMTP password
+        $mail->Username = '';// SMTP username
+        $mail->Password = '';// SMTP password
 
         $mail->setFrom($email, $name);//Your application NAME and EMAIL
         $mail->Subject = $subject;//Message subject
